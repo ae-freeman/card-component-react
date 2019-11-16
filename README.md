@@ -1,6 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
+This project builds an image card component that can be used inside larger projects. 
+<br/>
+The user inputs a term in the search bar and on submit the app calls the Unsplash api to get an image. State, made up of an images array and a descriptions array, is updated with the first image from the api call and the search term. 
+<br/>
+The image and description are rendered on screen using a map function and displayed in a grid system. 
+<br/>
+When the user types in another search term, state is updated with a new array that now also contains the new parameters. The component is re-rendered to display all the searches. 
 
 ## Available Scripts
 
